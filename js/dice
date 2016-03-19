@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+'use strict'
+
+function randInt(min,max) {
+  return Math.floor((Math.random() * (max - min + 1)) + min);
+}
+
+var total = 0;
+for (var n=0; n < ; n++) {
+  var side = randInt(1,6);
+  console.log("You rolled a" + side);
+}
+console.log("TOTAL; " + total);

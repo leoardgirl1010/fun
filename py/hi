@@ -3,5 +3,5 @@
 import skilstak.colors as c
 print(c.clear + c.multi("Hi, what's your name?!"))
 
-name = input(">")
-print(c.o + "Nice to meet you, "+ name + "!")
+name = input(c.y + ">")
+print(c.multi("Nice to meet you, "+ name + "!"))
