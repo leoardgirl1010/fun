@@ -3,3 +3,5 @@
 'use strict'
 
 var c = require("skilstak-colors");
+
+console.log(c.clear + c.o + "Hello!");
