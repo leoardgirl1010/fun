@@ -7,8 +7,9 @@ function randInt(min,max) {
 }
 
 var total = 0;
-for (var n=0; n < ; n++) {
+for (var n=0; n < 5; n++) {
   var side = randInt(1,6);
-  console.log("You rolled a" + side);
+  console.log("You rolled a... " + side);
+  total += side;
 }
 console.log("TOTAL; " + total);
